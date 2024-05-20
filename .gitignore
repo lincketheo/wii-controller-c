@@ -1,0 +1,12 @@
+build*/
+./docs/doxygen*
+./example*
+*.swp
+*.swo
+*.pyc
+.idea/*
+.vscode/*
+venv*/
+*run
+*wii-controller-c
+compile_commands.json

@@ -1,0 +1,9 @@
+[Unit]
+Description=Wii controller for robot
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/wii-controller-c
+
+[Install]
+WantedBy=multi-user.target
